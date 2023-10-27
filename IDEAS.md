@@ -25,16 +25,16 @@ This element is probably the more complicated one to match.
 Here are the software types of SoMeSci : Application, Plugin, OperatingSystem, ProgrammingLanguage and CoReference.
 
 #### Application
-Statistical Package for the Social Sciences, GitHub, AFNI, MEGA, PLINK, Excel, FSL, SPSS Statistics, ImageJ, STATA, Prism, SPM, SAS, Stata, SPSS
+SPSS, Stata, SAS, SPM, Prism, STATA, ImageJ, SPSS Statistics, FSL, Excel, PLINK, MEGA, AFNI, GitHub, Statistical Package for the Social Sciences
 
 #### Plugin
-DELLY, Fiji, illuminaio, Redirector, Bioconductor, DriverNet, glmnet, PyMS, scPipe, IDEPI, MSM-All, Chaste
+Chaste, MSM-All,IDEPI, scPipe, PyMS, glmnet, DriverNet, Bioconductor, Redirector, illuminaio, Fiji, DELLY
 
 #### OperatingSystem
-linux, MacOS, OpenSUSE, RHEL, Unix, Macintosh, Mac OS X, windows, Mac, Linux, Windows
+Windows, Linux, Mac, windows, Mac OS X, Macintosh, Unix, RHEL, OpenSUSE, MacOS, linux
 
 #### ProgrammingLanguage
-Fortran, IDL, JavaScript, Objective-C, Visual Basic, C#, C, Perl, C++, Java, Python, Matlab, MATLAB, R
+Matlab, RMATLAB, Python, Java, C++, Perl, C, C#, Visual Basic, Objective-C, JavaScript, IDL, Fortran
 
 ### Softcite
 
@@ -87,12 +87,6 @@ ImageJ, Mobyle, MUMMALS, Excel, AURIN, BLAST, ProbCons, PlatProm, OnlineTED, pFl
 
 #### Extension 
 - SoMeSci: add extension to the software name to match Softcite annotation; Regex matching
-
-#### Packages
-- Softcite: Re-examine contexts of R and Python to adjust sub-component annotation
-
-#### Annotation
-- Setup annotation configuration for new scheme
 
 ## version
 
@@ -159,7 +153,8 @@ Developer: "IBM Inc"
 
 ### SoftMeScite
 
-- SoMeSci: Remove the dot; Regex adjustment 
+Regex adjustment (direction to be decided)
+Remove the dot. 
 
 ## Name Abbreviation/Alternative
 
@@ -193,8 +188,8 @@ Software: Graphpad Prism
 
 ### SoftMeScite
 
-- Due to ambiguity with other software the name was changed to "GraphPad Prism" by the publisher. 
-- SoMeSci: adjust annotation to include "Graphpad" in the software name (Regex matching) 
+Regex adjustment (direction to be decided). 
+The Problem is that the software is often called "Graphpad" by mistake even so the software name is "Prism" and the developer is "Graphpad". 
 
 ## Software with merged Version
 
@@ -211,8 +206,8 @@ Software: SPSS16
 
 ### SoftMeScite
 
-- SoftCite: re-annotation based on regex matching strings ending in digits.  
-- Manual examination is required as this is not generally true for all software. There is software, where the number at the end is not the version, but actually a part of the name.
+Regex adjustment (direction to be decided). 
+This is not generally true for all software. There is software, where the number at the end ist not the version, but actually a part of the name.
 
 ## Package/PlugIn descriptions
 
@@ -229,7 +224,7 @@ Software: "R package lme4"
 
 ### SoftMeScite
 
-Softcite: re-examine contexts of R and Python for package mentions and manually update them; Regex matching needed to identify them.  
+Regex adjustment (direction to be decided). 
 
 ## Identifier 
 
